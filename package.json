@@ -1,6 +1,6 @@
 {
   "name": "array-max-length",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Returns a new array with the given maxmimum length",
   "license": "MIT",
   "repository": "gillstrom/array-max-length",
