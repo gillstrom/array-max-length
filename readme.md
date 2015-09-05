@@ -1,6 +1,6 @@
 # array-max-length [![Build Status](https://travis-ci.org/gillstrom/array-max-length.svg?branch=master)](https://travis-ci.org/gillstrom/array-max-length)
 
-> Returns a new array with the given maxmimum length
+> Returns a new array with the given maximum length
 
 
 ## Install
