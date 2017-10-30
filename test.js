@@ -1,5 +1,5 @@
 import test from 'ava';
-import m from './';
+import m from '.';
 
 test(t => {
 	const arr = [1, 2, 3, 4, 5];
