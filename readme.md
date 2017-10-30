@@ -1,20 +1,21 @@
 # array-max-length [![Build Status](https://travis-ci.org/gillstrom/array-max-length.svg?branch=master)](https://travis-ci.org/gillstrom/array-max-length)
 
-> Returns a new array with the given maximum length
+> Returns a new `Array` with the given maximum length
 
 
 ## Install
 
 ```
-$ npm install --save array-max-length
+$ npm install array-max-length
 ```
 
 
 ## Usage
 
 ```js
-var arrayMaxLength = require('array-max-length');
-var arr = [1, 2, 3, 4, 5];
+const arrayMaxLength = require('array-max-length');
+
+const arr = [1, 2, 3, 4, 5];
 
 arrayMaxLength(arr, 2);
 // => [1, 2]
@@ -28,17 +29,19 @@ arrayMaxLength(arr, 10);
 
 ### arrayMaxLength(input, length)
 
-Returns the new array.
+Returns a new `Array` with the given length.
 
 #### input
 
-Type: `array`
+Type: `Array`
+
+Input to return the new `Array` from.
 
 #### length
 
 Type: `number`
 
-The maximum length of the array.
+The maximum length of the `Array`.
 
 
 ## License

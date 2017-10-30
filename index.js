@@ -1,10 +1,10 @@
 'use strict';
-module.exports = function (input, length) {
+module.exports = (input, length) => {
 	if (!Array.isArray(input)) {
-		throw new TypeError('Expected an array');
+		throw new TypeError(`Expected an \`Array\`, got \`${typeof input}\``);
 	}
 
-	var ret = input.slice();
+	const ret = input.slice();
 
 	if (ret.length > length) {
 		ret.length = length;
